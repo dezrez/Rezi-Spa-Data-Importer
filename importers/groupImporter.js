@@ -3,6 +3,7 @@ import * as config from '../config';
 import { forEach } from 'lodash';
 import logger from '../helpers/logger';
 import groupCreater from '../payloads/group';
+import groupSearchPayLoad from '../payloads/searching';
 import setflagsCreater from '../payloads/setflags';
 import $ from 'jquery';
 
@@ -59,7 +60,7 @@ export const addSearchingRoles = (groupIds, token) => {
             .set('Content-Type', 'application/json')
             .set('Rezi-Api-Version', '1.0')
             .set('Authorization', 'Bearer ' + token)
-            .send(config.groupSearchPayLoad)
+            .send(groupSearchPayLoad)
             .end((err, { body }) => {
                 logger('Group Searching roles added!');
             });

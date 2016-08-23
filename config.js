@@ -1,25 +1,3 @@
-const groupSearchPayLoad = {
-    "OwningTeamId": 3,
-    "Criteria": {
-        "BudgetFrom": "0",
-        "BudgetTo": "5000000",
-        "MustHave":
-        {
-            "PropertyTypes": [],
-            "PropertyTags": [],
-            "Regions": []
-        },
-        "ShouldNotHave": {
-            "PropertyTypes": [],
-            "PropertyTags": []
-        },
-        "MustNotHave": { "Regions": [] }
-    },
-    "Grade": {},
-    "Origin": {},
-    "FinancialStatus": {}
-}
-
 
 const addgroup = 'https://localapi.dezrez.com/api/group/addgroup';
 const addproperty = 'https://localapi.dezrez.com/api/property/add';
@@ -38,7 +16,6 @@ const addSalesSearch = (id) => {
 
 export {
 addSalesSearch,
-groupSearchPayLoad,
 addgroup,
 addproperty,
 getallgroups,
