@@ -1,6 +1,6 @@
-## Rezi Spa Data Importer
+## Rezi Spa Random Data Importer
 
-Small App To Import Groups and Properties onto your Rezi API
+Small App to import random Groups and Properties onto your Rezi API.  For test development only, not to be used on live accounts!
 
 ### Installation
 
