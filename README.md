@@ -1,9 +1,10 @@
-## data-importer
-Small App To Import Stuff Into the API
+## Rezi Spa Data Importer
 
-### Change or develop
+Small App To Import Groups and Properties onto your Rezi API
 
-#####Clone the repo and cd into root
+### Installation
+
+##### Clone the repo and cd into root
 
 ````
 npm install
@@ -16,4 +17,12 @@ typings install
 npm run dev
 ```
 
-Browse at 127.0.0.1:8080 for dev environment.
+Browse at 127.0.0.1:1337 for dev environment.
+
+### Usage
+
+- Grab an authentication token and paste it into the text box at the top of the app.
+
+- Enter the amount of groups / properties you want to import then click the import buttons.
+
+- Wait for the magic to happen.
